@@ -15,7 +15,7 @@ Start a local Jupyter server using /home/$USER/Documents/jupyter-work/ as your l
 	  -e JUPYTER_TOKEN=token                                    \
 	  -v /home/$USER/:/home/$USER/                              \
 	  -v /home/$USER/Documents/jupyter-work/:/home/jovyan/work/ \
-	  jupyter/all-spark-notebook
+	  jupyter/all-spark-notebook:2021-01-01
 ```
 Once started, your own jupyter instance should be running : open
 `[http://127.0.0.1:8888](http://127.0.0.1:8888)`, the token to use is "`token`".
